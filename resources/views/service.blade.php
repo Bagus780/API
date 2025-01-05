@@ -20,7 +20,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="image/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <!-- Tweaks for older IEs-->
@@ -36,7 +36,7 @@
       <div class="header_section header_bg">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+               <div class="logo"><a href="index.html"><img src="image/logo.png"></a></div>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -77,29 +77,29 @@
                <div class="row">
                   <div class="col-lg-3 col-sm-6">
                      <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-1.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-1.png"></div>
+                        <div class="app_icon"><img src="image/icon-1.png"></div>
+                        <div class="app_icon_1"><img src="image/icon-1.png"></div>
                         <h4 class="services_text active">App Design</h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-2.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-6.png"></div>
+                        <div class="app_icon"><img src="image/icon-2.png"></div>
+                        <div class="app_icon_1"><img src="image/icon-6.png"></div>
                         <h4 class="services_text">Website Design</h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-3.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-7.png"></div>
+                        <div class="app_icon"><img src="image/icon-3.png"></div>
+                        <div class="app_icon_1"><img src="image/icon-7.png"></div>
                         <h4 class="services_text">Html And Css</h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-4.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-8.png"></div>
+                        <div class="app_icon"><img src="image/icon-4.png"></div>
+                        <div class="app_icon_1"><img src="image/icon-8.png"></div>
                         <h4 class="services_text">Logo Designign</h4>
                      </div>
                   </div>

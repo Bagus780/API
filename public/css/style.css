@@ -231,7 +231,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../image/banner-bg.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -709,7 +709,7 @@ button {
 .blog_section {
     width: 100%;
     float: left;
-    background-image: url(../images/blog-bg.png);
+    background-image: url(../image/blog-bg.jpg);
     height: 550px;
     background-size: cover;
     margin-bottom: 410px;
@@ -755,7 +755,7 @@ button {
 
 .blog_img {
     width: 100%;
-    background-image: url(../images/blog-img1.png);
+    background-image: url(../image/blog-img1.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -763,7 +763,7 @@ button {
 
 .blog_img_2 {
     width: 100%;
-    background-image: url(../images/blog-img2.png);
+    background-image: url(../image/blog-img2.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -771,7 +771,7 @@ button {
 
 .blog_img_3 {
     width: 100%;
-    background-image: url(../images/blog-img3.png);
+    background-image: url(../image/blog-img3.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;

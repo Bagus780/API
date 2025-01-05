@@ -20,7 +20,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="image/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <!-- Tweaks for older IEs-->
@@ -36,8 +36,10 @@
       <!-- header section start -->
       <div class="header_section">
          <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+               <a class="navbar-brand" href="{{ url('/') }}">
+                  <img src="{{ asset('image/logo.png') }}" style="width: 70px; height: auto;">
+              </a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -78,10 +80,10 @@
                            <div class="container-fluid">
                               <div class="row">
                                  <div class="col-md-6">
-                                    <div class="banner_taital_main">
-                                       <h3 class="banner_text">Hello Am <br>Programer</h3>
-                                       <h1 class="banner_taital">UI/UX Designer</h1>
-                                    </div>
+                                    <<div class="banner_taital_main" style="color: white;">
+                                       <p class="about_text">Di era digital seperti sekarang, memiliki sebuah website adalah kebutuhan utama untuk mengembangkan bisnis Anda. Website tidak hanya berfungsi sebagai identitas online, tetapi juga menjadi platform untuk menjangkau lebih banyak pelanggan, meningkatkan kepercayaan, dan mengembangkan brand Anda. 
+                                           Untuk membantu Anda, kami menyediakan layanan jasa pembuatan website profesional yang disesuaikan dengan kebutuhan dan visi bisnis Anda.</p>
+                                   </div>                                   
                                  </div>
                                  <div class="col-md-6">
                                     <div class="social_icon">
@@ -167,9 +169,12 @@
                </div>
             </section>
             <div class="container">
-               <div class="video_bt">
-                  <div class="play_icon"><img src="images/play-icon.png"></div>
-               </div>
+               <div class="video-button">
+                  <div class="play-icon">
+                    <img src="image/play-icon.png" alt="Play Icon">
+                  </div>
+                </div>
+                
             </div>
          </div>
          <!-- banner section end -->
@@ -189,30 +194,30 @@
                <div class="row">
                   <div class="col-lg-3 col-sm-6">
                      <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-1.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-1.png"></div>
-                        <h4 class="services_text active">App Design</h4>
+                        <div class="app_icon"><img src="image/icon-1.png"></div>
+                        <div class="app_icon_1"><img src="image/icon-1.png"></div>
+                        <h4 class="services_text active">Pembuatan Website Bisnis</h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-2.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-6.png"></div>
-                        <h4 class="services_text">Website Design</h4>
+                        <div class="app_icon"><img src="image/icon-2.png"></div>
+                        <div class="app_icon_1"><img src="image/icon-6.png"></div>
+                        <h4 class="services_text">Website Portofolio</h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-3.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-7.png"></div>
-                        <h4 class="services_text">Html And Css</h4>
+                        <div class="app_icon"><img src="image/icon-3.png"></div>
+                        <div class="app_icon_1"><img src="image/icon-7.png"></div>
+                        <h4 class="services_text">Landing Page Promosi</h4>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <div class="box_main ">
-                        <div class="app_icon"><img src="images/icon-4.png"></div>
-                        <div class="app_icon_1"><img src="images/icon-8.png"></div>
-                        <h4 class="services_text">Logo Designign</h4>
+                        <div class="app_icon"><img src="image/icon-4.png"></div>
+                        <div class="app_icon_1"><img src="image/icon-8.png"></div>
+                        <h4 class="services_text">Custom Website</h4>
                      </div>
                   </div>
                </div>
@@ -234,7 +239,7 @@
                   <div class="row">
                      <div class="col-md-8">
                         <div class="container_main">
-                           <img src="images/img-1.png" alt="" class="image">
+                           <img src="image/img-1.png" alt="" class="image">
                            <div class="overlay">
                               <div class="text">
                                  <div class="btn_main">
@@ -246,7 +251,7 @@
                      </div>
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-2.png" alt="" class="image">
+                           <img src="image/img-2.png" alt="" class="image">
                            <div class="overlay">
                               <div class="text">
                                  <div class="btn_main">
@@ -262,7 +267,7 @@
                   <div class="row">
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-3.png" alt="" class="image">
+                           <img src="image/img-3.png" alt="" class="image">
                            <div class="overlay">
                               <div class="text">
                                  <div class="btn_main">
@@ -274,7 +279,7 @@
                      </div>
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-4.png" alt="" class="image">
+                           <img src="image/img-4.png" alt="" class="image">
                            <div class="overlay">
                               <div class="text">
                                  <div class="btn_main">
@@ -286,7 +291,7 @@
                      </div>
                      <div class="col-md-4">
                         <div class="container_main">
-                           <img src="images/img-5.png" alt="" class="image">
+                           <img src="image/img-5.png" alt="" class="image">
                            <div class="overlay">
                               <div class="text">
                                  <div class="btn_main">
@@ -308,7 +313,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="blog_taital">My <span class="blog_taital_1">Blog</span></h1>
+                  <h1 class="blog_taital">My <span class="blog_taital_1">BLOG</span></h1>
                   <p class="blog_text">upidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                </div>
             </div>
